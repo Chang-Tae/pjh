@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 공통 스타일 */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    table {
+        width: 100%; /* 테이블 너비 조절 */
+        max-width: 750px; /* 최대 테이블 너비 설정 */
+        border-collapse: collapse; /* 셀들의 테두리를 합치도록 설정 */
+        table-layout: fixed; /* 고정 너비로 설정 */
+    }
+    
+    td {
+        padding: 0px; /* 셀 안의 여백 조절 */
+    }
+    
+    
+    img {
+        max-width: 100%; /* 이미지를 테이블 너비에 맞게 조절 */
+        height: auto; /* 가로 세로 비율 유지 */
+        display: block; /* 이미지를 블록 요소로 설정하여 수직으로 정렬 */
+        margin: 0 auto; /* 이미지 가운데 정렬 */
+    }
+    
+    @media (max-width: 768px) {
+        /* 768px 이하의 화면 크기에 대한 스타일 */
+        table {
+            width: 100%; /* 테이블 너비를 100%로 조절 */
+        }
+    }
+        </style>
+<body>
+    <table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tbody>
+        <tr>
+          <td><img src="img/1.gif" alt=""></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.youtube.com/@user-vq4kt4wi5z" target="_blank"><img src="img/2.f" alt=""></a></td>
+        </tr>
+        <tr>
+          <td><a href="https://www.facebook.com/her.teajeong" target="_blank"><img src="img/3.gif" alt=""></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://www.instagram.com/daejeon_heo.taejeong/" target="_blank"><img src="img/4.gif" alt=""></a></td>
+        </tr>
+        <tr>
+            <td><a href="https://blog.naver.com/vis0605" target="_blank"><img src="img/5.gif" alt=""></a></td>
+          </tr>
+        <tr>
+          <td><img src="img/6.gif" alt=""></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    </body>
+</html>
